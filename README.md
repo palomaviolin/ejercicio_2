@@ -1,3 +1,5 @@
+Link de nuestro proyecto: https://palomaviolin.github.io/ejercicio_2/
+
 ![Adalab](images/logo-adalab-80px.png)
 # Adalab web starter kit
 Ahoy! Esta es nuestro Starter Kit en node/gulp para este primer contacto con el desarrollo web
