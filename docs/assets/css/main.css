@@ -1,1 +1,1 @@
-.page__header {height: 75px;}@media (min-width: 768px) {.page__header {height: 100px;}}@media (min-width: 1280px) {.page__header {height: 110px;}}
+.page__header {height: 75px;}.section1 {height: 50%;text-align: center;}button {border-radius: 5px solid black;height: 45px;}@media (min-width: 768px) {.page__header {height: 100px;}}@media (min-width: 1280px) {.page__header {height: 110px;}}
