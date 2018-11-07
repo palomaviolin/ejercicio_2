@@ -1,0 +1,17 @@
+@import 'core/settings';
+
+.page__header {
+	height:75px;
+}
+
+@media (min-width:768px){ /**tablet**/
+	.page__header {
+		height:100px;
+	}
+}
+
+@media (min-width:1280px){ /**desktop**/
+	.page__header {
+		height:110px;
+	}
+}
