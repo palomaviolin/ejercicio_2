@@ -2,6 +2,16 @@
   height: 75px;
 }
 
+.section1 {
+  height: 50%;
+  text-align: center;
+}
+
+button {
+  border-radius: 5px solid black;
+  height: 45px;
+}
+
 @media (min-width: 768px) {
 /**tablet**/  .page__header {
     height: 100px;
