@@ -40,10 +40,10 @@ body {
 }
 
 .button {
-  border: 5px solid red;
-  border-radius: 15px;
-  height: 45px;
-  width: 300px;
+  border: 0.3125rem solid red;
+  border-radius: 0.9375rem;
+  height: 2.813rem;
+  width: 18.75rem;
   background-color: darkred;
   display: flex;
   align-items: center;
@@ -55,7 +55,7 @@ body {
   color: salmon;
   font-family: "Poor Story", cursive;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 @media (min-width: 768px) {
