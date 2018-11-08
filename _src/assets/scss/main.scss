@@ -18,13 +18,13 @@ body {
 }
 
 .logo_1 {
-  position: absolute;
+  position: $position_absolute;
   top: 10px;
   left: 4px;
 }
 
 .logo_2 {
-  position: absolute;
+  position: $position_absolute;
   visibility: hidden;
   top: 10px;
   right: 20px;
@@ -65,7 +65,7 @@ body {
   }
 
   .logo_2 {
-    visibility: visible;
+    visibility: $visibility_visible;
   }
 }
 
@@ -76,6 +76,6 @@ body {
   }
 
   .logo_2 {
-    visibility: visible;
+    visibility: $visibility_visible;
   }
 }
