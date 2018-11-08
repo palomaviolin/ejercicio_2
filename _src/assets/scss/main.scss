@@ -20,11 +20,12 @@ body {
 .logo_1 {
   position: absolute;
   top: 10px;
-  left: 10px;
+  left: 4px;
 }
 
 .logo_2 {
   position: absolute;
+  visibility: hidden;
   top: 10px;
   right: 20px;
 }
@@ -62,11 +63,19 @@ body {
   .page__header {
     height: 100px;
   }
+
+  .logo_2 {
+    visibility: visible;
+  }
 }
 
 @media (min-width: 1280px) {
   /**desktop**/
   .page__header {
     height: 110px;
+  }
+
+  .logo_2 {
+    visibility: visible;
   }
 }
