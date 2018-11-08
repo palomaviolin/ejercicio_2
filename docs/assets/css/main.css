@@ -59,7 +59,7 @@ body {
     justify-content: center;
 }
 
-a:hover {
+.wizarding_world_a:hover {
     background-color: #87cefa;
     color: blue;
     border: solid darkblue;
