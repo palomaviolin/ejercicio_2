@@ -1,31 +1,38 @@
-@import 'core/settings';
+@import "core/settings";
+
+header {
+  background-color: purple;
+}
 
 .page__header {
-	height:75px;
+  height: 75px;
 }
 
-.section1{
-	height: 50vh;
-	border: solid blue 2px;
-	background-color: pink;
-	text-align: center;
+.section1 {
+  height: 50vh;
+  border: solid blue 2px;
+  background-color: pink;
+  text-align: center;
+  overflow: scroll;
 }
 
-.button{
-	border: 5px solid black;
-	border-radius: 15px;
-	height: 45px;
-	background-color: red;
+.button {
+  border: 5px solid black;
+  border-radius: 15px;
+  height: 45px;
+  background-color: red;
 }
 
-@media (min-width:768px){ /**tablet**/
-	.page__header {
-		height:100px;
-	}
+@media (min-width: 768px) {
+  /**tablet**/
+  .page__header {
+    height: 100px;
+  }
 }
 
-@media (min-width:1280px){ /**desktop**/
-	.page__header {
-		height:110px;
-	}
+@media (min-width: 1280px) {
+  /**desktop**/
+  .page__header {
+    height: 110px;
+  }
 }

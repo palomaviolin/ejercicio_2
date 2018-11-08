@@ -1,3 +1,7 @@
+header {
+  background-color: purple;
+}
+
 .page__header {
   height: 75px;
 }
@@ -7,6 +11,7 @@
   border: solid blue 2px;
   background-color: pink;
   text-align: center;
+  overflow: scroll;
 }
 
 .button {
