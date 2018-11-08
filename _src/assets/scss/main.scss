@@ -1,10 +1,10 @@
 @import "core/settings";
 
-body{
+body {
   background-color: lightseagreen;
 }
 
-.home{
+.home {
   margin: 20px;
 }
 
@@ -13,17 +13,17 @@ body{
   width: 100%;
 }
 
-.logos_container{
+.logos_container {
   position: relative;
 }
 
-.logo_1{
+.logo_1 {
   position: absolute;
   top: 10px;
   left: 10px;
 }
 
-.logo_2{
+.logo_2 {
   position: absolute;
   top: 10px;
   right: 20px;
@@ -49,10 +49,10 @@ body{
   justify-content: center;
 }
 
-.wizarding_world_a{
+.wizarding_world_a {
   text-decoration: none;
   color: salmon;
-  font-family: 'Poor Story', cursive;
+  font-family: "Poor Story", cursive;
   font-weight: bold;
   font-size: 18px;
 }
