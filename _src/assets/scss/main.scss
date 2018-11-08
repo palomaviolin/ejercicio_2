@@ -33,14 +33,14 @@ body {
 .section1 {
   height: 50vh;
   border: solid blue 2px;
-  background-color: lightskyblue;
+  background-color: $background-color_section1_and_button;
   text-align: center;
   overflow: scroll;
   padding: 15px;
   font-size: 100%;
 }
 
-.section2{
+.section2 {
   font-size: 100%;
 }
 
@@ -53,6 +53,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+a:hover {
+  background-color: $background-color_section1_and_button;
+  color: blue;
+  border: solid darkblue;
 }
 
 .wizarding_world_a {
